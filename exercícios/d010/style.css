@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+#titulo {
+    color: #175A35;
+    font-family: 'Android';
+}
+
+body {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    width: 40%;
+    
+}
+
+header {
+    background-image: linear-gradient(to top, #1C623A, #3CD782);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+div {
+    background-color: #1A5C38;
+    padding: 1px;
+    margin: -15px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 25px;
+    font-weight: 600;
+}
+
+li {
+    font-weight: 600;
+}
+
+header > h1 {
+    font-family: 'PT Sans Narrow';
+}
+
+nav {
+    padding: 20px 15px 13px 15px;
+    text-align: justify;
+    
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+    border: 0px;
+}
+
+article {
+    background-color: #C5EBD6;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.287);
+    padding: 0px;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+
+article > h2 {
+    background-color: #2FA866;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 5px 10px 5px;
+    margin: 0px;
+}
+
+article > p {
+    padding: 5px;
+}
+
+.fonte {
+    background-image: linear-gradient(to right, #C6ECD6, white);
+    color: #175A35;
+    font-family: 'Android';
+}
+
+#margem {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #1A5C38;
+    text-align: center;
+    color: #5bdc94;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > a:hover {
+    text-decoration: underline;
+    color: white;
+}
