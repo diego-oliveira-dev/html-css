@@ -14,7 +14,7 @@ body {
 }
 
 main  {
-    min-width: 320px;
+    min-width: 300px;
     max-width: 1000px;
     margin: auto;
 }
@@ -53,6 +53,7 @@ header a:hover {
     background-image: url(../imagens/background001.jpg);
     background-size: cover;
     background-attachment: fixed;
+    width: 100%;
     margin: -20px;
     padding: 10px;
 }
@@ -61,6 +62,7 @@ header a:hover {
     background-image: url(../imagens/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
+    width: 100%;
     margin: -20px;
     padding: 10px;
 }
@@ -68,7 +70,7 @@ header a:hover {
 .texto-foto {
     background-color: #030f038c;
     color: white;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: 20px;
 }
