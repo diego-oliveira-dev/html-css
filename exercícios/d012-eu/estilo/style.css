@@ -13,13 +13,18 @@ body {
     margin: 20px;
 }
 
+main  {
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+}
+
 header {
     background-color: black;
     font-family: var(--fonte-header);
     font-weight: normal;
     color: white;
     text-align: center;
-    min-height: 150px;
     padding: 1px;
     margin: -20px -20px 70px -20px;
 }
@@ -63,7 +68,7 @@ header a:hover {
 .texto-foto {
     background-color: #030f038c;
     color: white;
-    width: 42vw;
+    width: 400px;
     padding: 10px;
     margin: 20px;
 }
